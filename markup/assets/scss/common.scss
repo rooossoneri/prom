@@ -17,6 +17,22 @@ html, body {
     height: 100%;
 }
 
+a, button {
+	outline: 0;
+}
+
+ul, p {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	transition: all .35s ease;
+}
+
 .page__buffer {
     height: 50px;
 }
@@ -30,4 +46,8 @@ html, body {
 .header-wrap {
 	display: flex;
 	justify-content: space-between;
+}
+
+.footer-socials__link svg:hover {
+	fill: #eee;
 }
