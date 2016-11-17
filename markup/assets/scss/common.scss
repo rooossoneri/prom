@@ -48,6 +48,13 @@ a {
 	justify-content: space-between;
 }
 
-.footer-socials__link svg:hover {
-	fill: #eee;
+.btn {
+	text-transform: uppercase;
+	border-radius: 15px;
+	letter-spacing: 1px;
+	color: #292a30;
+}
+
+.btn-yellow {
+	background-color: #ffcc00;
 }
