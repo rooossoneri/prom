@@ -20,3 +20,14 @@ html, body {
 .page__buffer {
     height: 50px;
 }
+
+.inner {
+	width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header-wrap {
+	display: flex;
+	justify-content: space-between;
+}
