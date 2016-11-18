@@ -550,6 +550,18 @@ header {
 		align-items: center;
 		justify-content: center;
 		position: relative;
+		transition: all 0s ease;
+
+		&:hover {
+			background-color: #2c3e8d;
+			color: #fff;
+			
+
+			&::after {
+				border-left: 28px solid #2c3e8d;
+
+			}
+		}
 
 		&::after {
 			content: '';
