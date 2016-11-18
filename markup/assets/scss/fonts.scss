@@ -1,18 +1,40 @@
-/* Your custom fonts here */
-
-/* Example
+@font-face {
+    font-family: 'Lato-Semibold';
+    src: url('../fonts/Lato-Semibold/Lato-Semibold.eot');
+    src: url('../fonts/Lato-Semibold/Lato-Semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Semibold/Lato-Semibold.woff') format('woff'),
+         url('../fonts/Lato-Semibold/Lato-Semibold.svg#custom_font') format('svg');
+    // font-weight: 400;       // For normal width. It could has another value
+    font-style: normal;     // Also could has another value
+}
 
 @font-face {
-    font-family: 'CustomFont';
-    src: url('../fonts/Custom-Font.eot');
-    src: url('../fonts/Custom-Font.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Custom-Font.woff') format('woff'),
-         url('../fonts/Custom-Font.svg#custom_font') format('svg');
-    font-weight: 400;       // For normal width. It could has another value   
+    font-family: 'Lato-Black';
+    src: url('../fonts/Lato-Black/Lato-Black.eot');
+    src: url('../fonts/Lato-Black/Lato-Black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Black/Lato-Black.woff') format('woff'),
+         url('../fonts/Lato-Black/Lato-Black.svg#custom_font') format('svg');
+    font-weight: 400;       // For normal width. It could has another value
     font-style: normal;     // Also could has another value
-    }
+}
 
 
-// Var for using custom font
-$CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
-*/
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('../fonts/Lato-Regular/Lato-Regular.eot');
+    src: url('../fonts/Lato-Regular/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Regular/Lato-Regular.woff') format('woff'),
+         url('../fonts/Lato-Regular/Lato-Regular.svg#custom_font') format('svg');
+    // font-weight: 400;       // For normal width. It could has another value
+    font-style: normal;     // Also could has another value
+}
+
+@font-face {
+    font-family: 'Lato-Medium';
+    src: url('../fonts/Lato-Medium/Lato-Medium.eot');
+    src: url('../fonts/Lato-Medium/Lato-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Medium/Lato-Medium.woff') format('woff'),
+         url('../fonts/Lato-Medium/Lato-Medium.svg#custom_font') format('svg');
+    // font-weight: 400;       // For normal width. It could has another value
+    font-style: normal;     // Also could has another value
+}
