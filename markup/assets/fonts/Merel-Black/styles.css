@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'Merel-Black';
+  src: url('Merel-Black.eot?#iefix') format('embedded-opentype'),  url('Merel-Black.otf')  format('opentype'),
+	     url('Merel-Black.woff') format('woff'), url('Merel-Black.ttf')  format('truetype'), url('Merel-Black.svg#Merel-Black') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

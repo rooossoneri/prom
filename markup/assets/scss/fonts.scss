@@ -38,3 +38,23 @@
     // font-weight: 400;       // For normal width. It could has another value
     font-style: normal;     // Also could has another value
 }
+
+@font-face {
+    font-family: 'Merel-Black';
+    src: url('../fonts/Merel-Black/Merel-Black.eot');
+    src: url('../fonts/Merel-Black/Merel-Black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Merel-Black/Merel-Black.woff') format('woff'),
+         url('../fonts/Merel-Black/Merel-Black.svg#custom_font') format('svg');
+    // font-weight: 400;       // For normal width. It could has another value
+    font-style: normal;     // Also could has another value
+}
+
+@font-face {
+    font-family: 'Merel-Regular';
+    src: url('../fonts/Merel-Regular/Merel-Regular.eot');
+    src: url('../fonts/Merel-Regular/Merel-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Merel-Regular/Merel-Regular.woff') format('woff'),
+         url('../fonts/Merel-Regular/Merel-Regular.svg#custom_font') format('svg');
+    // font-weight: 400;       // For normal width. It could has another value
+    font-style: normal;     // Also could has another value
+}
