@@ -309,6 +309,7 @@ header {
 	width: 282px;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.75);
   box-sizing: border-box;
+  border-radius: 3px;
 
   &__img {
   	position: relative;
@@ -422,6 +423,8 @@ header {
 	border-bottom: 2px solid #ebeef0;
 	margin-top: 60px;
 	font-size: 14px;
+	display: flex;
+	align-items: center;
 
 	&__title {
 		font-family: $Kelson-Sans;
@@ -437,11 +440,53 @@ header {
 	&__text {
 		font-family: "Lato", sans-serif;
 		font-weight: 300;
+		color: #81838c;
+	}
+
+	&__list {
+		display: none;
+	}
+
+	&__items {
+		margin-left: 50px;
+	}
+
+	&__price {
+		margin-left: 50px;
+	}
+
+	&__link {
+		padding: 13px 0 13px 20px;
+		border: 1px solid #e6e6e6;
+		width: 220px;
+		display: inline-block;
+		border-radius: 30px;
+		margin-left: 10px;
+		font-family: $Minion;
+		color: #737980;
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			width: 10px;
+			height: 6px;
+			right: 20px;
+			top: 50%;
+			transform: translateY(-50%);
+			background-image: url(%=static=%general/arrowt.png);
+		}
+
+		span {
+			font-family: $Poppins;
+		}
 	}
 
 }
 
-
+.products-count__price .products-count__link {
+	font-family: $Lato-Semibold;
+}
 
 
 

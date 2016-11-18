@@ -78,3 +78,13 @@
     // font-weight: 400;       // For normal width. It could has another value
     font-style: normal;     // Also could has another value
 }
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('../fonts/Poppins-Medium/Poppins-Medium.eot');
+    src: url('../fonts/Poppins-Medium/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Poppins-Medium/Poppins-Medium.woff') format('woff'),
+         url('../fonts/Poppins-Medium/Poppins-Medium.svg#custom_font') format('svg');
+    // font-weight: 400;       // For normal width. It could has another value
+    font-style: normal;     // Also could has another value
+}
