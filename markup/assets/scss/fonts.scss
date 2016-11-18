@@ -58,3 +58,23 @@
     // font-weight: 400;       // For normal width. It could has another value
     font-style: normal;     // Also could has another value
 }
+
+@font-face {
+    font-family: 'KelsonSans-LightRU';
+    src: url('../fonts/KelsonSans-LightRU/KelsonSans-LightRU.eot');
+    src: url('../fonts/KelsonSans-LightRU/KelsonSans-LightRU.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/KelsonSans-LightRU/KelsonSans-LightRU.woff') format('woff'),
+         url('../fonts/KelsonSans-LightRU/KelsonSans-LightRU.svg#custom_font') format('svg');
+    // font-weight: 400;       // For normal width. It could has another value
+    font-style: normal;     // Also could has another value
+}
+
+@font-face {
+    font-family: 'MinionPro-Regular';
+    src: url('../fonts/MinionPro-Regular/MinionPro-Regular.eot');
+    src: url('../fonts/MinionPro-Regular/MinionPro-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MinionPro-Regular/MinionPro-Regular.woff') format('woff'),
+         url('../fonts/MinionPro-Regular/MinionPro-Regular.svg#custom_font') format('svg');
+    // font-weight: 400;       // For normal width. It could has another value
+    font-style: normal;     // Also could has another value
+}
