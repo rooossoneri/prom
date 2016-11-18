@@ -488,12 +488,89 @@ header {
 	font-family: $Lato-Semibold;
 }
 
+.products-slider {
+	position: relative;
+
+	&__text {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		padding-left: 50px;
+	}
+
+	&__title {
+		font-size: 48px;
+		text-transform: uppercase;
+		font-family: $Kelson-Sans;
+		color: $yellow;
+	}
+
+	&__subtitle {
+		font-size: 24px;
+		text-transform: uppercase;
+		font-family: $Kelson-Sans;
+		color: #fff;
+		margin-top: 20px;
+	}
+
+	&__description {
+		font-size: 14px;
+		font-family: "Lato", sans-serif;
+		font-weight: 300;
+		color: #fff;
+		margin-top: 15px;
+	}
+}
 
 
+.products-content {
+	display: flex;
+}
 
+.products-category {
+	margin-left: 20px;
 
+	&__item {
+		display: flex;
+		margin-top: 5px;
+		height: 130px;
+		&:first-child {
+			margin-top: 0;
+		}
+	}
 
+	&__text {
+		width: 220px;
+		background-color: $yellow;
+		font-family: $Kelson-Sans;
+		font-size: 24px;
+		text-transform: uppercase;
+		font-weight: 600;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
 
+		&::after {
+			content: '';
+			position: absolute;
+			top: 0;
+			right: -27px;
+			width:0;
+	 	  height:0;
+	    border-top: 65px solid transparent;
+			border-bottom: 66px solid transparent;
+			border-left: 28px solid #ffcc00;
+		}
+	}
+
+	&__img {
+		img {
+			height: 130px;
+			max-width: 100%;
+		}
+	}
+}
 
 
 
